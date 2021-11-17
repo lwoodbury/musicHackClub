@@ -1,0 +1,2 @@
+An Arduino patch showing how to print srerial in a helpful format to read in Max
+A maxpatch to show how to set up a serial device and format the incoming serial data
