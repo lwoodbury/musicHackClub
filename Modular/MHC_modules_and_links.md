@@ -1,4 +1,5 @@
 Working to this plan to roughly create 3 skiffs focussed on synth/voice, percussion and sampling/granular synthesis: https://www.modulargrid.net/e/racks/view/1955428
+
 While we are awaiting more modules we have crammed it all in to 2 skiffs! 
 
 Synth/Voice Skiff: 
