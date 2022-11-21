@@ -1,0 +1,8 @@
+#N canvas 501 38 472 727 12;
+#X obj 224 254 sampler sample01;
+#X obj 225 95 vsl 30 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 223 320 dac~;
+#X connect 0 0 2 0;
+#X connect 0 0 2 1;
+#X connect 1 0 0 0;
