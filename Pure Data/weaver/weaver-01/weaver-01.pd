@@ -1,8 +1,81 @@
-#N canvas 501 38 472 727 12;
-#X obj 224 254 sampler sample01;
-#X obj 225 95 vsl 30 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#N canvas 401 38 1036 819 12;
+#X obj 43 408 sampler sample01;
+#X obj 44 615 dac~;
+#X obj 47 43 ctlin;
+#X floatatom 47 72 5 0 0 0 - - - 0;
+#X floatatom 114 73 5 0 0 0 - - - 0;
+#X obj 114 95 - 31;
+#X obj 45 122 list prepend 0;
+#X obj 45 145 route 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16;
+#X obj 44 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 223 320 dac~;
-#X connect 0 0 2 0;
-#X connect 0 0 2 1;
-#X connect 1 0 0 0;
+#X obj 65 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 86 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 199 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 107 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 290 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 131 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 268 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 155 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 247 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 177 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 224 204 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 310 203 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 331 205 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 355 205 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 377 205 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 399 206 vsl 15 128 0 127 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X obj 80 435 sampler sample02;
+#X obj 105 466 sampler sample03;
+#X obj 130 498 sampler sample04;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 2 0 3 0;
+#X connect 2 1 4 0;
+#X connect 3 0 6 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 1;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 7 1 9 0;
+#X connect 7 2 10 0;
+#X connect 7 3 12 0;
+#X connect 7 4 14 0;
+#X connect 7 5 16 0;
+#X connect 7 6 18 0;
+#X connect 7 7 11 0;
+#X connect 7 8 19 0;
+#X connect 7 9 17 0;
+#X connect 7 10 15 0;
+#X connect 7 11 13 0;
+#X connect 7 12 20 0;
+#X connect 7 13 21 0;
+#X connect 7 14 22 0;
+#X connect 7 15 23 0;
+#X connect 7 16 24 0;
+#X connect 8 0 0 0;
+#X connect 9 0 25 0;
+#X connect 10 0 26 0;
+#X connect 12 0 27 0;
+#X connect 25 0 1 0;
+#X connect 25 0 1 1;
+#X connect 26 0 1 0;
+#X connect 26 0 1 1;
+#X connect 27 0 1 1;
+#X connect 27 0 1 0;
