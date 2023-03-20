@@ -1,0 +1,16 @@
+#N canvas 566 265 588 506 12;
+#X floatatom 67 37 5 0 0 0 - - - 0;
+#X floatatom 313 125 5 0 0 0 - - - 0;
+#X text 358 125 root note;
+#X floatatom 476 125 5 0 0 0 - - - 0;
+#X text 521 125 spread;
+#X floatatom 69 274 5 0 0 0 - - - 0;
+#X obj 69 188 %;
+#X text 118 37 any number as input;
+#X obj 68 84 abs;
+#X text 100 84 ensure it's positive;
+#X obj 249 391 route;
+#X connect 0 0 8 0;
+#X connect 3 0 6 1;
+#X connect 6 0 5 0;
+#X connect 8 0 6 0;
